@@ -145,20 +145,60 @@ header {
 
 /* Strategic planning */
 
+.box {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .column-left {
     flex-basis: 50%;
-    
-    height: 400px;
-    border: 2px dashed black;
-    background-color: darkgray;
 }
 
 .column-right {
     flex-basis: 50%;
-    
-    height: 400px;
-    border: 2px dashed black;
-    background-color: darkgray;
+}
+
+.small-box {
+    width: 80%;
+    background-color: white;
+    border-radius: 2rem;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+#planning1 {
+    width: 80%;
+    margin: 2rem;
+}
+
+#planning2 {
+    width: 70%;
+}
+
+.title-left {
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.text-left {
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.title-right {
+    padding: 1rem 1rem;
+}
+
+.text-right {
+    padding: 1rem 1rem;
+}
+
+.fa-arrow-down {
+    background-color: #9792E4;
+    border-radius: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* Testimonials */
