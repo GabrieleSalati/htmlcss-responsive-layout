@@ -36,3 +36,130 @@ body {
     clear: both;
     display: table;
 }
+
+.colored-sec {
+    background-color: #9792E4;
+}
+
+/* General */
+
+/* Header style */
+
+header {
+    background-color: #0084FD;
+}
+
+.headcol-left {
+    flex-basis: 50%;
+    
+    height: 80px;
+    border: 2px dashed black;
+}
+
+.headcol-right {
+    flex-basis: 50%;
+    
+    height: 80px;
+    border: 2px dashed black;
+}
+
+/* Features style */
+
+.features {
+    flex-direction: column;
+}
+
+.cards-row {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}
+
+.card-big {
+    flex-basis: 60%;
+
+    border: 2px dashed black;
+    background-color: beige;
+    height: 150px;
+}
+
+.card {
+    flex-basis: 30%;
+
+    border: 2px dashed black;
+    background-color: beige;
+    height: 150px;
+}
+
+/* Strategic planning */
+
+.column-left {
+    flex-basis: 50%;
+    
+    height: 400px;
+    border: 2px dashed black;
+    background-color: darkgray;
+}
+
+.column-right {
+    flex-basis: 50%;
+    
+    height: 400px;
+    border: 2px dashed black;
+    background-color: darkgray;
+}
+
+/* Testimonials */
+
+.testimonials {
+    flex-direction: column;
+    align-items: center;
+}
+
+.test-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.test-row {
+    
+    width: 1200px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px dashed black;
+}
+
+/* Benefits */
+
+/* About */
+
+.infocol-left {
+    flex-basis: 60%; 
+    
+    height: 600px;
+    background-color: darkolivegreen;
+    border: 2px dashed black;
+}
+
+.infocol-right {
+    flex-basis: 30%;
+    
+    height: 600px;
+    background-color: darkolivegreen;
+    border: 2px dashed black;
+}
+
+/* Get started */
+
+.get-started {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+}
