@@ -20,7 +20,7 @@ picture {
 
 body {
     min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Utilities */
@@ -49,18 +49,30 @@ header {
     background-color: #0084FD;
 }
 
+#logo {
+    padding: 1rem 0;
+}
+
+.head-link {
+    color: white;
+    display: inline-block;
+    padding: 1.5rem 0.5rem;
+}
+
+#startbutton-small {
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
 .headcol-left {
     flex-basis: 50%;
-    
-    height: 80px;
-    border: 2px dashed black;
 }
 
 .headcol-right {
     flex-basis: 50%;
-    
-    height: 80px;
-    border: 2px dashed black;
+    text-align: right;
 }
 
 /* Features style */
