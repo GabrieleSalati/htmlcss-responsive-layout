@@ -79,6 +79,7 @@ header {
 
 .features {
     flex-direction: column;
+    padding: 5vh 0;
 }
 
 .cards-row {
@@ -89,7 +90,7 @@ header {
 
 .card-big {
     display: flex;
-    width: calc(100% / 3 * 2);
+    width: calc(100% / 3 * 2 - 16px);
     position: relative;
     background-color: #B5DDFF;
     border-radius: 1rem;
@@ -122,7 +123,7 @@ header {
 }
 
 .card {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 16px);
     text-align: center;
     background-color: #B5DDFF;
     border-radius: 1rem;
@@ -149,6 +150,7 @@ header {
     display: flex;
     max-width: 800px;
     margin: 0 auto;
+    padding: 5vh 0;
 }
 
 .column-left {
@@ -164,7 +166,7 @@ header {
     background-color: white;
     border-radius: 2rem;
     text-align: center;
-    margin-top: 15vh;
+    margin-top: 17vh;
 }
 
 #planning1 {
@@ -206,6 +208,8 @@ header {
 .testimonials {
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    padding: 5vh 0;
 }
 
 .test-col {
@@ -214,41 +218,163 @@ header {
 }
 
 .test-row {
-    
-    width: 1200px;
-    height: 200px;
-    background-color: yellow;
-    border: 2px dashed black;
+    max-width: 1200px;
+    display: flex;
+    background-color: #9792E4;
+    border-radius: 2rem;
+    margin: 2rem 0;
+}
+
+.face {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+.testimonial-text {
+    padding: 1rem;
+    color: white;
+}
+
+.name {
+    text-align: left;
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.inside-row {
+    padding-top: 4rem;
+}
+
+.testimonial-title {
+    font-size: 3rem;
+    color: #9792E4;
 }
 
 /* Benefits */
 
+.big-title {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding: 2rem 0;
+}
+
+.card-benefit {
+    width: calc(100% / 3 - 16px);
+    text-align: left;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.number {
+    color: #9792E4;
+    padding: 1rem 1rem;
+    font-size: 4rem;
+}
+
+.benefit-title {
+    color: #9792E4;
+    padding: 1rem 1rem;
+}
+
+.benefit-text {
+    color: #9792E4;
+    padding: 1rem 1rem;
+}
+
+.more {
+    padding: 0.5rem 2.5rem;
+    margin: 1rem;
+    background-color: #9792E4;
+    border-radius: 2rem;
+    display: inline-block;
+    color: white;
+}
+
 /* About */
 
 .infocol-left {
-    flex-basis: 60%; 
-    
-    height: 600px;
-    background-color: darkolivegreen;
-    border: 2px dashed black;
+    flex-basis: 60%;
+    padding: 5vh 0; 
+}
+
+.about-title {
+    font-size: 5rem;
+    color: #9792E4;
+    padding: 1rem 0;
+}
+
+.about-text {
+    font-size: 1.5rem;
+    padding: 1rem 0;
 }
 
 .infocol-right {
-    flex-basis: 30%;
-    
-    height: 600px;
-    background-color: darkolivegreen;
-    border: 2px dashed black;
+    flex-basis: 40%;
+    margin: 1rem 6rem;
+    padding: 5vh 0; 
+}
+
+.profile {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+}
+
+.presentation {
+    color: #9792E4;
+    font-size: 1.5rem;
 }
 
 /* Get started */
 
 .get-started {
     text-align: center;
+    padding: 5vh 0;
+}
+
+h4 {
+    color: white;
+    padding: 2rem 0;
+}
+
+.bot-title {
+    font-size: 6rem;
+    color: #FDC15F;
+}
+
+.bot-text {
+    color: white;
+    padding: 3rem 0;
+}
+
+.big-button {
+    padding: 1rem 4rem;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 2rem 0;
+    color: #9792E4;
 }
 
 /* Footer */
 
 footer {
     background-color: black;
+    text-align: center;
+}
+
+.footer-box {
+    max-width: 30vw;
+    margin: 0 auto;
+}
+
+.footer-text {
+    color: white;
+    padding: 2rem 0;
+}
+
+.footer-text a {
+    color: #9792E4;
 }
